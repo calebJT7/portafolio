@@ -12,7 +12,7 @@ This is my personal portfolio website built using **HTML**, **CSS**, and **JavaS
 
 ## 🔗 Live Website
 
-[Click here to view the live site](https://tu-enlace-aqui.com)
+[Click here to view the live site](https://calebjt7.github.io/portafolio/)
 
 ## 📁 Project Structure
 
