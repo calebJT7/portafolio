@@ -825,4 +825,5 @@ footer {
   letter-spacing: 0.2px;
   background: none;
   padding: 0;
+  white-space: nowrap;
 }
