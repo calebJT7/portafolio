@@ -10,7 +10,6 @@ A responsive, custom-built personal portfolio designed to showcase my technical 
 
 - **Clean E-commerce API:** A REST API built with Clean Architecture, featuring product and user management, dockerized SQL database, and a CI/CD pipeline. (C#, .NET 9, SQL, Docker)
 - **Billing System Backend (ARCA):** A backend system simulating real-world billing operations, focusing on complex CRUD management and strict business logic validations. (C#, Entity Framework Core, SQL)
-- **Productivity Dashboard:** A comprehensive frontend tool focusing on complex UI state management and client-side logic without frameworks. (Vanilla JS)
 - **TravelPlan:** A trip organizer focused on data calculation and dynamic DOM manipulation. (Vanilla JS)
 
 ## Technologies Used
