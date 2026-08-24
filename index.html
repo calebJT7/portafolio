@@ -21,10 +21,10 @@
   <header>
    
     <div class="foto-container">
-      <img src="img/mi-foto.jpeg" alt="Foto de Caleb" class="foto-perfil">
+      <img src="img/mifoto2.jpeg" alt="Foto de Caleb" class="foto-perfil">
     </div>
     <h1>Caleb Toledo</h1>
-    <p class="subtitulo">Systems Analysis Student | Full Stack developer Jr.</p>
+    <p class="subtitulo">Systems Analysis Student | Full Stack developer</p>
     <div class="redes-sociales">
       <a href="https://www.linkedin.com/in/caleb-toledo-356b56336/">LinkedIn</a>
       <a href="https://github.com/calebJT7">GitHub</a>
@@ -124,80 +124,110 @@ I specialize in the .NET ecosystem (C#, ASP.NET Core), building distributed web 
     </div>
 </section>
 
-<section id="proyectos">
-  <h2>Proyects</h2>
-  <div class="proyectos-grid">
+<section id="proyectos" class="tarjeta-glow">
+  <h2>Projects</h2>
+  <div class="carrusel-contenedor">
+    <button class="carrusel-btn prev"><i class="fas fa-chevron-left"></i></button>
     
-    <div class="proyecto-card">
-  <div class="proyecto-preview" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; padding: 0;">
-    <img src="img/Captura de pantalla 2026-06-29 114535.png" alt="Clean E-Commerce Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px; border: 3px solid #2c522c;">
+    <div class="proyectos-track">
+      <!-- Proyecto 1 -->
+      <div class="proyecto-card">
+        <div class="proyecto-preview">
+          <img src="img/ecomerce.png" alt="Clean E-Commerce Preview">
+        </div>
+        <h3>Full-Stack E-commerce</h3>
+        <p><strong>Stack:</strong> C# | .NET 9 | Next.js | TypeScript | SQL Server | Docker</p>
+        <p>A decoupled enterprise-grade ecosystem featuring a lightning-fast storefront and a secure internal admin dashboard in Blazor powered by Clean Architecture.</p>
+        <div class="botones-proyecto">
+          <a href="https://clean-ecommerce-frontend-9hr8gl1ae-calebjt7s-projects.vercel.app/" target="_blank">See Online</a>
+          <a href="https://github.com/calebJT7/CleanEcommerce-Pro" target="_blank">Backend</a>
+          <a href="https://github.com/calebJT7/CleanEcommerce-Frontend" target="_blank">Frontend</a>
+        </div>
+      </div>
+
+      <div class="proyecto-card">
+        <div class="proyecto-preview">
+          <img src="img/page.png" alt="landing page Preview">
+        </div>
+        <h3>Personal Landing Page</h3>
+        <p><strong>Stack:</strong> Next.js | TypeScript | Tailwind CSS | Vercel </p>
+        <p>Personal landing page to offer freelance services.</p>
+        <div class="botones-proyecto">
+          <a href="https://calebtld.vercel.app/" target="_blank">See Online</a>
+          <a href="https://github.com/calebJT7/TLDpage/tree/main/tld" target="_blank">see code</a>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="proyecto-card">
+        <div class="proyecto-preview">
+          <img src="img/previewARCA.png.png" alt="ARCA Preview">
+        </div>
+        <h3>Billing System (ARCA)</h3>
+        <p>C# | Entity Framework Core | SQL</p>
+        <p>A backend system simulating real-world billing operations. Focused on complex CRUD management, relational data integrity, and business logic validations.</p>
+        <div class="botones-proyecto">
+          <a href="https://github.com/calebJT7/FacturadorARCA" target="_blank">See Code</a>
+        </div>
+      </div>
+
+      <!-- Proyecto 3 -->
+      <div class="proyecto-card">
+        <div class="proyecto-preview">
+          <img src="img/previewroti.png" alt="LDK Preview">
+        </div>
+        <h3>LDK Rotiseria - ERP & POS</h3>
+        <p>C# | .NET 8 | Blazor | SQLite | MudBlazor</p>
+        <p>A full-stack On-Premise Point of Sale. Designed to operate on a local network (LAN) with real-time order processing and automated stock tracking.</p>
+        <div class="botones-proyecto">
+          <a href="https://github.com/calebJT7/RotiseriaLDK" target="_blank">See Code</a>
+        </div>
+      </div>
+
+            <div class="proyecto-card">
+        <div class="proyecto-preview">
+          <img src="img/gym.png" alt="gym Preview">
+        </div>
+        <h3>GYM Landing Page</h3>
+        <p>JS | HTML | CSS</p>
+        <p>A modern and responsive landing page built to promote a gym and its membership plans. Responsive design, functioning entirely on the client side.</p>
+        <div class="botones-proyecto">
+          <a href="https://calebjt7.github.io/gym/" target="_blank">See Online</a>
+          <a href="https://github.com/calebJT7/gym" target="_blank">See Code</a>
+        </div>
+      </div>
+    </div>
+
+      <!-- Proyecto 4 -->
+      <div class="proyecto-card">
+        <div class="proyecto-preview">
+          <img src="img/previeworgviaj.png" alt="TravelPlan Preview">
+        </div>
+        <h3>TravelPlan - Organizer</h3>
+        <p>Responsive web app focused on client-side logic. Features expense tracking, task categorization, and dynamic DOM manipulation.</p>
+        <div class="botones-proyecto">
+          <a href="https://calebjt7.github.io/travel-organization/" target="_blank">See Online</a>
+          <a href="https://github.com/calebJT7/travel-organization" target="_blank">See Code</a>
+        </div>
+      </div>
+
+      <!-- Proyecto 5 -->
+      <div class="proyecto-card">
+        <div class="proyecto-preview">
+          <img src="img/previewToDo.png.png" alt="To-Do Preview">
+        </div>
+        <h3>Productivity Dashboard</h3>
+        <p>JS | DOM Manipulation | HTML/CSS</p>
+        <p>A frontend tool built entirely with JavaScript. Features a task management system, Pomodoro timer, and simulated authentication flow.</p>
+        <div class="botones-proyecto">
+          <a href="https://calebjt7.github.io/to-do-list/" target="_blank">See Online</a>
+          <a href="https://github.com/calebJT7/to-do-list" target="_blank">See Code</a>
+        </div>
+      </div>
+    </div>
+
+    <button class="carrusel-btn next"><i class="fas fa-chevron-right"></i></button>
   </div>
-  
-  <h3>Full-Stack E-commerce Ecosystem</h3>
-  
-  <p style="margin-bottom: 10px;">
-    <strong>Stack:</strong> C# | .NET 9 | Next.js | TypeScript | SQL Server | Docker
-  </p>
-  
-  <p>A decoupled enterprise-grade ecosystem. Features a lightning-fast client storefront built with Next.js, and a secure internal admin dashboard in Blazor powered by a Clean Architecture .NET Web API. Includes JWT role-based security, reactive state management, and CI/CD pipelines.</p>
-  
-  <div class="botones-proyecto" style="display: flex; gap: 10px; flex-wrap: wrap;">
-    <a href="https://clean-ecommerce-frontend-9hr8gl1ae-calebjt7s-projects.vercel.app/" target="_blank">Live Demo</a>
-    <a href="https://github.com/calebJT7/CleanEcommerce-Pro" target="_blank">Backend Code</a>
-    <a href="https://github.com/calebJT7/CleanEcommerce-Frontend" target="_blank">Frontend Code</a>
-  </div>
-</div>
-
-    <div class="proyecto-card">
-      <div class="proyecto-preview" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; padding: 0;">
-        <img src="img/previewARCA.png.png" alt="Landing Page Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px; border: 3px solid #2c522c;">
-      </div>
-      <h3>Billing System Backend (ARCA)</h3>
-      <p>C# | Entity Framework Core | SQL | A backend system simulating real-world billing operations. Focused on complex CRUD management, relational data integrity, and strict business logic validations.
-      </p>
-      <div class="botones-proyecto">
-        <!--<a href="https://calebjt7.github.io/gym/" target="_blank">see online</a>-->
-        <a href="https://github.com/calebJT7/FacturadorARCA" target="_blank">see code</a>
-      </div>
-    </div>
-
-    <div class="proyecto-card">
-      <div class="proyecto-preview" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; padding: 0;">
-        <img src="img/previewroti.png" alt="Landing Page Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px; border: 3px solid #2c522c;">
-      </div>
-      <h3>LDK Rotiseria - ERP & POS System</h3>
-      <p>C# | .NET 8 | Blazor | SQLite | Entity Framework Core | MudBlazor | A full-stack, On-Premise Point of Sale and management system developed for a real-world gastronomic business. Designed to operate on a local network (LAN) with zero cloud costs. Features real-time order processing, automated stock tracking, client debt management, and a dynamic financial dashboard.
-      </p>
-      <div class="botones-proyecto">
-        <!--<a href="https://calebjt7.github.io/gym/" target="_blank">see online</a>-->
-        <a href="https://github.com/calebJT7/RotiseriaLDK" target="_blank">see code</a>
-      </div>
-    </div>
-
-    <div class="proyecto-card">
-      <div class="proyecto-preview" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; padding: 0;">
-        <img src="img/previeworgviaj.png" alt="Landing Page Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px; border: 3px solid #2c522c;">
-      </div>
-      <h3>TravelPlan - Trip Organizer</h3>
-      <p>A responsive web application focused on client-side logic and budget calculation. Features expense tracking, task categorization, and dynamic DOM manipulation to manage user inputs and UI states effectively without frameworks.</p>
-      <div class="botones-proyecto">
-        <a href="https://calebjt7.github.io/travel-organization/" target="_blank">see online</a>
-        <a href="https://github.com/calebJT7/travel-organization" target="_blank">see code</a>
-      </div>
-    </div>
-
-    <div class="proyecto-card">
-      <div class="proyecto-preview" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; padding: 0;">
-        <img src="img/previewToDo.png.png" alt="Landing Page Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px; border: 3px solid #2c522c;">
-      </div>
-      <h3>Productivity Dashboard & Task Manager</h3>
-      <p>JS | DOM Manipulation | HTML/CSS | A comprehensive frontend productivity tool built entirely with JavaScript. Features a task management system, Pomodoro timer, and simulated authentication flow, focusing on complex UI state management and client-side logic.</p>
-      
-      <div class="botones-proyecto">
-        <a href="https://calebjt7.github.io/to-do-list/" target="_blank">see online</a>
-        <a href="https://github.com/calebJT7/to-do-list" target="_blank">see code</a>
-      </div>
-    </div>
 </section>
   <section id="contacto" class="tarjeta-glow">
   <h2>Contact</h2>
